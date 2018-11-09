@@ -1,0 +1,90 @@
+/*Helpers*/
+
+.margin-top-big {
+  margin-top: 30px;
+}
+
+.font-size-md {
+  font-size: 20px !important;
+}
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header-inner {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.section-developers {
+  position: relative;
+  background-image: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background-image: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast .primary-overlay {
+  background-color: rgba(112, 81, 176, 0.9);
+}
+
+/*Media querie para as seções developer e podcast em vp menores que 500px*/
+
+@media all and (max-width: 550px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
